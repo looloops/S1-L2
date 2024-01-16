@@ -8,7 +8,7 @@
         content="Primi passi operativi per creare un modello di pagina HTML per un post. Scopri come iniziare in modo facile.">
     <title>Sviluppo di una pagina web - Blog Epicode</title>
     <style>
-        #artCor p {
+        #art-cor p {
             display: inline-block;
             padding: 5px;
         }
@@ -22,9 +22,9 @@
     </header>
     <nav>
         <ul>
-            <li>Home</li>
-            <li>Articoli</li>
-            <li>Lavora con noi</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Articoli</a></li>
+            <li><a href="#">Lavora con noi</a></li>
         </ul>
     </nav>
     <main>
@@ -51,7 +51,7 @@
                 </p>
                 <p>L'applicazione di stli CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.
                 </p>
-                <table>
+                <table border="2px">
                     <thead>
                         <tr>
                             <th colspan="3">Diffuzione dei CSS</th>
@@ -102,10 +102,10 @@
 
             <div>
                 <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
-                <form action="" method="get">
+                <form name="newsletter">
                     <div>
                         <label for="email">Email </label>
-                        <input placeholder="Inserisci la tua email" name="email" id="email" required />
+                        <input type="email" placeholder="Inserisci la tua email" name="email" required />
                     </div>
                     <div>
                         <input type="submit" value="Iscriviti" />
@@ -113,7 +113,7 @@
                 </form>
 
             </div>
-            <div id="artCor">
+            <div id="art-cor">
                 <p>
                     Articoli correlati <br>
                     Validare il codice HTML <br>
